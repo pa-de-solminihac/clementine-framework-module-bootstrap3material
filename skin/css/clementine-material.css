@@ -103,3 +103,21 @@ body .navbar-top-links > li > a:focus, body .navbar-top-links > li > a:hover {
 body #page-wrapper {
     padding-bottom: 120px;
 }
+
+/*  boutons add / back dans la modale ajax et plus en dehors */
+#colorbox .clementine_crud-create_div.material_well {
+    display: block;
+    position: relative;
+}
+#colorbox .clementine_crud-create_form.clementine_crud-form {
+    position: unset;
+}
+#colorbox form button,
+#colorbox form > a {
+    border: 1px solid;
+    bottom: 0;
+    box-shadow: none;
+    clear: both;
+    float: none;
+    position: absolute !important;
+}
